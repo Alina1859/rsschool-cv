@@ -1,0 +1,97 @@
+@media (max-width:991px) 
+    .menu
+        padding: 6px
+    
+@media (max-width:767px)
+    body
+        box-shadow: none
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 25%
+        height: 130vh
+        padding: 20px 15px
+        background-color: rgba(223, 187, 183, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+            font-size: 20px
+    .hamburger
+        display: block
+        position: absolute
+        right: -370px
+        top: 30%
+        width: 30px
+        span
+            display: block
+            height: 2px
+            width: 100%
+            margin-bottom: 3px
+            background-color: #e0ac98
+            transition: 0.5s all
+        &_active
+            span
+                background-color: #94776c
+       
+    .menu .menu_link
+        font-size: 26px
+        line-height: 50px
+
+    .contacts, .skills, .courses ul
+        display: flex
+        flex-direction: column
+        align-items: center
+    h1
+        font-size: 75px
+        line-height: 80px
+    h2
+        font-size: 25px
+    h3
+        font-size: 50px
+        line-height: 75px
+    p 
+        font-size: 40px
+        line-height: 55px
+    pre
+        font-size: 30px
+
+@media (max-width:575px)
+    .menu
+        height: 150vh
+        width: 50%
+    .menu .menu_link
+        font-size: 50px
+        line-height: 70px
+    .hamburger
+        right: -600px
+        width: 60px
+        span
+            height: 6px
+            margin-bottom: 7px
+    p 
+        font-size: 55px
+        line-height: 62px
+    pre
+        font-size: 40px
+        margin-left: -800px
+       
+
+
+
+        
+
+
+                    
+
+   
+        
+            
+        
